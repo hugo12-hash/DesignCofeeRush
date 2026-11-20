@@ -44,4 +44,4 @@ Mouvement par défaut de la place : saut **7,2 studs** (`CharacterJumpHeight`), 
 ## Règles
 
 - Ne jamais redimensionner le mannequin (son échelle est verrouillée dans Blender).
-- Il représente **un** avatar : les joueurs peuvent avoir des avatars plus petits ou plus grands selon les réglages Avatar du jeu → voir [questions ouvertes](06_QUESTIONS_OUVERTES.md).
+- **Validé le 20/11/2026 : la taille des avatars est imposée en jeu.** Ce mannequin est donc la seule référence de proportions. À mettre en place dans Studio : échelles forcées (Game Settings > Avatar) ou personnage imposé (StarterCharacter) aux mêmes dimensions.

@@ -1,5 +1,5 @@
 {
-  "statut": "PROPOSITION — à valider par Hugo (voir docs/06_QUESTIONS_OUVERTES.md)",
+  "statut": "PROPOSITION partiellement validée — validé le 20/11/2026 : taille d'avatar imposée (mannequin = référence unique), grille de 5 studs. Autres valeurs à valider.",
   "unite": "stud",
   "reference": "references/character/R15/r15_measurements.json",
   "plan_de_travail": {
@@ -7,12 +7,9 @@
     "justification": "valeur déjà utilisée dans le jeu (3,855) ; entre la hanche (3,51) et le coude (4,47) du mannequin"
   },
   "module_grille": {
-    "options": [
-      4.55,
-      5.0
-    ],
-    "retenu": null,
-    "note": "4,55 = grille actuelle des scripts ; 5 = grille modulaire recommandée par Roblox"
+    "pas": 5.0,
+    "valide": "2026-11-20",
+    "note": "largeurs des meubles de cuisine en multiples de 5 ; allée de 10 = 2 cases. Les scripts actuels du jeu (cases 4,55, barrières 5,05) devront suivre."
   },
   "allee_min": 10,
   "allee_confort_4_joueurs": 15,
@@ -32,5 +29,10 @@
     "hauteur_min": 10
   },
   "plafond_interieur_min": 15,
-  "plafond_justification": "tête 6,87 + saut 7,2 = 14,07"
+  "plafond_justification": "tête 6,87 + saut 7,2 = 14,07",
+  "avatar": {
+    "politique": "taille imposée",
+    "valide": "2026-11-20",
+    "note": "le mannequin R15 de 6,87 studs est la seule référence ; à appliquer dans Game Settings > Avatar ou via un StarterCharacter"
+  }
 }

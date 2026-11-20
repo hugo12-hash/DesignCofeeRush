@@ -1,6 +1,7 @@
 # 02 · Ergonomie et gameplay
 
-> **Statut : PROPOSITION à valider.** Les valeurs ci-dessous sont dérivées du mannequin R15 et
+> **Validé le 20/11/2026 :** taille d'avatar imposée (le mannequin R15 est la seule référence) et grille de **5 studs**.
+> **Reste à valider :** les autres valeurs. Les valeurs ci-dessous sont dérivées du mannequin R15 et
 > du jeu actuel. Elles sont aussi dans `standards/ergonomie.json` (lu par les scripts Blender).
 > Tant que `statut` n'indique pas « validé », elles servent de repères, pas de règles.
 
@@ -23,11 +24,12 @@
 | Allée principale (4 joueurs) | 15 | Un joueur peut doubler deux autres. |
 | Porte | 10 de large, 10 de haut minimum | Recommandation Roblox. |
 
-## Grille des comptoirs — à décider
+## Grille des comptoirs — validée : 5 studs
 
-Le jeu actuel place les plans de travail sur une grille de **4,55 studs** (barrières invisibles de 5,05).
-Le tutoriel Roblox recommande une grille modulaire de **5 studs** (kits dont toutes les tailles sont des multiples du plus petit module).
-Le choix conditionne la largeur de **tous** les meubles de cuisine : voir [questions ouvertes](06_QUESTIONS_OUVERTES.md).
+- Tous les meubles de cuisine ont une largeur multiple de **5 studs** (5, 10, 15…), comme les kits modulaires recommandés par Roblox.
+- Une allée de 10 = 2 cases ; deux mannequins côte à côte (7,55) y passent.
+- Pivot commun à toute la famille des comptoirs (centre de la base pour un module posé au sol).
+- À adapter côté jeu : les scripts actuels utilisent des cases de 4,55 et des barrières de 5,05.
 
 ## Points d'attention gameplay
 
