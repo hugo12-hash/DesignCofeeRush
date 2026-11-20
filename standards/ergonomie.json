@@ -1,0 +1,36 @@
+{
+  "statut": "PROPOSITION — à valider par Hugo (voir docs/06_QUESTIONS_OUVERTES.md)",
+  "unite": "stud",
+  "reference": "references/character/R15/r15_measurements.json",
+  "plan_de_travail": {
+    "hauteur_dessus": 3.85,
+    "justification": "valeur déjà utilisée dans le jeu (3,855) ; entre la hanche (3,51) et le coude (4,47) du mannequin"
+  },
+  "module_grille": {
+    "options": [
+      4.55,
+      5.0
+    ],
+    "retenu": null,
+    "note": "4,55 = grille actuelle des scripts ; 5 = grille modulaire recommandée par Roblox"
+  },
+  "allee_min": 10,
+  "allee_confort_4_joueurs": 15,
+  "zone_interaction": {
+    "min": 3.0,
+    "max": 5.7,
+    "note": "entre le bout des doigts (3,09) et l'épaule (5,68)"
+  },
+  "machine_sur_plan": {
+    "hauteur_max_au_dessus_du_plan": 2.45,
+    "note": "haut de machine ≤ 6,3 = hauteur des yeux, pour garder la vue en 1re personne"
+  },
+  "etagere_interactive_max": 5.7,
+  "poignee_cote_visible_min": 0.4,
+  "porte": {
+    "largeur_min": 10,
+    "hauteur_min": 10
+  },
+  "plafond_interieur_min": 15,
+  "plafond_justification": "tête 6,87 + saut 7,2 = 14,07"
+}

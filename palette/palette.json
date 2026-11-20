@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "source": "docs/00_REGLES_MAITRES.md §1",
+  "regle": "Ne pas introduire de couleurs très saturées sans demande explicite.",
+  "couleurs": [
+    {
+      "id": "SAGE_GREEN",
+      "nom": "Vert sauge",
+      "hex": "#A3B39B",
+      "role": "principale",
+      "rgb_0_255": [
+        163,
+        179,
+        155
+      ],
+      "roblox_color3": "Color3.fromRGB(163, 179, 155)",
+      "blender_linear_rgb": [
+        0.3663,
+        0.4508,
+        0.3278
+      ]
+    },
+    {
+      "id": "FOREST_GREEN",
+      "nom": "Vert forêt",
+      "hex": "#355B49",
+      "role": "principale",
+      "rgb_0_255": [
+        53,
+        91,
+        73
+      ],
+      "roblox_color3": "Color3.fromRGB(53, 91, 73)",
+      "blender_linear_rgb": [
+        0.0356,
+        0.1046,
+        0.0666
+      ]
+    },
+    {
+      "id": "CREAM",
+      "nom": "Crème",
+      "hex": "#F2EBDD",
+      "role": "principale",
+      "rgb_0_255": [
+        242,
+        235,
+        221
+      ],
+      "roblox_color3": "Color3.fromRGB(242, 235, 221)",
+      "blender_linear_rgb": [
+        0.8879,
+        0.8308,
+        0.7231
+      ]
+    },
+    {
+      "id": "OFF_WHITE",
+      "nom": "Blanc cassé",
+      "hex": "#F7F4EC",
+      "role": "principale",
+      "rgb_0_255": [
+        247,
+        244,
+        236
+      ],
+      "roblox_color3": "Color3.fromRGB(247, 244, 236)",
+      "blender_linear_rgb": [
+        0.9301,
+        0.9047,
+        0.8388
+      ]
+    },
+    {
+      "id": "WOOD_LIGHT",
+      "nom": "Bois clair",
+      "hex": "#D6B58C",
+      "role": "principale",
+      "rgb_0_255": [
+        214,
+        181,
+        140
+      ],
+      "roblox_color3": "Color3.fromRGB(214, 181, 140)",
+      "blender_linear_rgb": [
+        0.6724,
+        0.4621,
+        0.2623
+      ]
+    },
+    {
+      "id": "WARM_BEIGE",
+      "nom": "Beige chaud",
+      "hex": "#C5AD91",
+      "role": "principale",
+      "rgb_0_255": [
+        197,
+        173,
+        145
+      ],
+      "roblox_color3": "Color3.fromRGB(197, 173, 145)",
+      "blender_linear_rgb": [
+        0.5583,
+        0.4179,
+        0.2831
+      ]
+    },
+    {
+      "id": "WOOD_DARK",
+      "nom": "Bois foncé",
+      "hex": "#76543D",
+      "role": "secondaire",
+      "rgb_0_255": [
+        118,
+        84,
+        61
+      ],
+      "roblox_color3": "Color3.fromRGB(118, 84, 61)",
+      "blender_linear_rgb": [
+        0.1812,
+        0.0887,
+        0.0467
+      ]
+    },
+    {
+      "id": "METAL_BLACK",
+      "nom": "Métal noir",
+      "hex": "#303331",
+      "role": "secondaire",
+      "rgb_0_255": [
+        48,
+        51,
+        49
+      ],
+      "roblox_color3": "Color3.fromRGB(48, 51, 49)",
+      "blender_linear_rgb": [
+        0.0296,
+        0.0331,
+        0.0307
+      ]
+    },
+    {
+      "id": "PLANT_GREEN",
+      "nom": "Vert végétal",
+      "hex": "#607B58",
+      "role": "secondaire",
+      "rgb_0_255": [
+        96,
+        123,
+        88
+      ],
+      "roblox_color3": "Color3.fromRGB(96, 123, 88)",
+      "blender_linear_rgb": [
+        0.117,
+        0.1981,
+        0.0976
+      ]
+    }
+  ]
+}

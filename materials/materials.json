@@ -1,0 +1,168 @@
+{
+  "version": "1.0",
+  "statut": "Liste officielle (§7 des règles). Valeurs roughness / metallic / répétition = PROPOSITION à valider.",
+  "convention_fichiers": "materials/<ID>/<ID>_Color.png, _Roughness.png, _Normal.png, _Metalness.png (PNG, côté ≤ 1024 px, puissance de 2)",
+  "materiaux": [
+    {
+      "id": "WOOD_OAK_LIGHT",
+      "description": "Chêne clair naturel, veinage discret, finition mate.",
+      "couleur_de_base": "#D6B58C",
+      "palette": "WOOD_LIGHT",
+      "roughness": 0.75,
+      "metallic": 0.0,
+      "type": "repetable",
+      "cartes_attendues": [
+        "Color",
+        "Roughness",
+        "Normal"
+      ],
+      "roblox_base_material": "WoodPlanks",
+      "statut_texture": "en attente des textures de Hugo",
+      "studs_par_repetition": 4,
+      "resolution_px": 1024
+    },
+    {
+      "id": "WOOD_OAK_RIBBED",
+      "description": "Bois clair à lames verticales régulières, pour les façades de comptoir.",
+      "couleur_de_base": "#D6B58C",
+      "palette": "WOOD_LIGHT",
+      "roughness": 0.75,
+      "metallic": 0.0,
+      "type": "repetable",
+      "cartes_attendues": [
+        "Color",
+        "Roughness",
+        "Normal"
+      ],
+      "roblox_base_material": "Wood",
+      "statut_texture": "en attente des textures de Hugo",
+      "studs_par_repetition": 4,
+      "resolution_px": 1024
+    },
+    {
+      "id": "TILE_FOREST_GREEN",
+      "description": "Carrelage vert forêt, joints fins, finition légèrement satinée.",
+      "couleur_de_base": "#355B49",
+      "palette": "FOREST_GREEN",
+      "roughness": 0.4,
+      "metallic": 0.0,
+      "type": "repetable",
+      "cartes_attendues": [
+        "Color",
+        "Roughness",
+        "Normal"
+      ],
+      "roblox_base_material": "SmoothPlastic",
+      "statut_texture": "en attente des textures de Hugo",
+      "studs_par_repetition": 4,
+      "resolution_px": 1024
+    },
+    {
+      "id": "MARBLE_CREAM",
+      "description": "Pierre crème avec veinage beige très discret.",
+      "couleur_de_base": "#F2EBDD",
+      "palette": "CREAM",
+      "roughness": 0.35,
+      "metallic": 0.0,
+      "type": "repetable",
+      "cartes_attendues": [
+        "Color",
+        "Roughness"
+      ],
+      "roblox_base_material": "Marble",
+      "statut_texture": "en attente des textures de Hugo",
+      "studs_par_repetition": 8,
+      "resolution_px": 1024
+    },
+    {
+      "id": "FLOOR_BEIGE_STONE",
+      "description": "Pierre beige claire, finition mate.",
+      "couleur_de_base": "#C5AD91",
+      "palette": "WARM_BEIGE",
+      "roughness": 0.85,
+      "metallic": 0.0,
+      "type": "repetable",
+      "cartes_attendues": [
+        "Color",
+        "Roughness",
+        "Normal"
+      ],
+      "roblox_base_material": "Slate",
+      "statut_texture": "en attente des textures de Hugo",
+      "studs_par_repetition": 8,
+      "resolution_px": 1024
+    },
+    {
+      "id": "SAGE_PAINT",
+      "description": "Peinture vert sauge, finition mate.",
+      "couleur_de_base": "#A3B39B",
+      "palette": "SAGE_GREEN",
+      "roughness": 0.85,
+      "metallic": 0.0,
+      "type": "repetable",
+      "cartes_attendues": [
+        "Color",
+        "Roughness"
+      ],
+      "roblox_base_material": "SmoothPlastic",
+      "statut_texture": "en attente des textures de Hugo",
+      "studs_par_repetition": 8,
+      "resolution_px": 512
+    },
+    {
+      "id": "FABRIC_WARM_BEIGE",
+      "description": "Tissu beige chaud, trame fine.",
+      "couleur_de_base": "#C5AD91",
+      "palette": "WARM_BEIGE",
+      "roughness": 0.95,
+      "metallic": 0.0,
+      "type": "repetable",
+      "cartes_attendues": [
+        "Color",
+        "Normal"
+      ],
+      "roblox_base_material": "Fabric",
+      "statut_texture": "en attente des textures de Hugo",
+      "studs_par_repetition": 2,
+      "resolution_px": 512
+    },
+    {
+      "id": "METAL_MATTE_BLACK",
+      "description": "Métal noir mat.",
+      "couleur_de_base": "#303331",
+      "palette": "METAL_BLACK",
+      "roughness": 0.55,
+      "metallic": 1.0,
+      "type": "uni",
+      "cartes_attendues": [],
+      "roblox_base_material": "Metal",
+      "statut_texture": "couleur unie, pas de texture prévue"
+    },
+    {
+      "id": "CERAMIC_OFF_WHITE",
+      "description": "Céramique blanc cassé.",
+      "couleur_de_base": "#F7F4EC",
+      "palette": "OFF_WHITE",
+      "roughness": 0.25,
+      "metallic": 0.0,
+      "type": "uni",
+      "cartes_attendues": [],
+      "roblox_base_material": "SmoothPlastic",
+      "statut_texture": "couleur unie, pas de texture prévue"
+    },
+    {
+      "id": "GLASS_CLEAR",
+      "description": "Verre clair avec transparence maîtrisée.",
+      "couleur_de_base": "#F7F4EC",
+      "palette": "OFF_WHITE",
+      "roughness": 0.05,
+      "metallic": 0.0,
+      "type": "uni",
+      "cartes_attendues": [],
+      "roblox_base_material": "Glass",
+      "statut_texture": "couleur unie, pas de texture prévue",
+      "transparence": 0.6,
+      "note": "Dans Roblox : Material Glass ou Transparency sur la MeshPart ; éviter de superposer plusieurs vitres (overdraw)."
+    }
+  ]
+}
