@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "statut": "Liste officielle (§7 des règles). Valeurs roughness / metallic / répétition = PROPOSITION à valider.",
+  "statut": "Liste officielle (§7 des règles) + 4 matériaux validés par Hugo le 20/11/2026. Valeurs roughness / metallic / répétition = PROPOSITION à valider.",
   "convention_fichiers": "materials/<ID>/<ID>_Color.png, _Roughness.png, _Normal.png, _Metalness.png (PNG, côté ≤ 1024 px, puissance de 2)",
   "materiaux": [
     {
@@ -164,6 +164,70 @@
       "statut_texture": "couleur unie, pas de texture prévue",
       "transparence": 0.6,
       "note": "Dans Roblox : Material Glass ou Transparency sur la MeshPart ; éviter de superposer plusieurs vitres (overdraw)."
+    },
+    {
+      "id": "PAINT_CREAM",
+      "description": "Peinture crème mate pour les murs.",
+      "couleur_de_base": "#F2EBDD",
+      "palette": "CREAM",
+      "roughness": 0.85,
+      "metallic": 0.0,
+      "type": "repetable",
+      "cartes_attendues": [
+        "Color",
+        "Roughness"
+      ],
+      "roblox_base_material": "SmoothPlastic",
+      "studs_par_repetition": 8,
+      "resolution_px": 512,
+      "statut_texture": "en attente des textures de Hugo",
+      "valide": "2026-11-20"
+    },
+    {
+      "id": "FABRIC_SAGE",
+      "description": "Tissu sauge pour la banquette, capitonnage en côtes verticales.",
+      "couleur_de_base": "#A3B39B",
+      "palette": "SAGE_GREEN",
+      "roughness": 0.95,
+      "metallic": 0.0,
+      "type": "repetable",
+      "cartes_attendues": [
+        "Color",
+        "Normal"
+      ],
+      "roblox_base_material": "Fabric",
+      "studs_par_repetition": 2,
+      "resolution_px": 512,
+      "statut_texture": "en attente des textures de Hugo",
+      "valide": "2026-11-20"
+    },
+    {
+      "id": "FOLIAGE_GREEN",
+      "description": "Feuillage stylisé des plantes, gros volumes simples.",
+      "couleur_de_base": "#607B58",
+      "palette": "PLANT_GREEN",
+      "roughness": 0.7,
+      "metallic": 0.0,
+      "type": "uni",
+      "cartes_attendues": [],
+      "roblox_base_material": "Grass",
+      "note": "Feuilles en volumes pleins plutôt qu'en plans transparents (overdraw).",
+      "statut_texture": "couleur unie, pas de texture prévue",
+      "valide": "2026-11-20"
+    },
+    {
+      "id": "METAL_BRUSHED_STEEL",
+      "description": "Inox brossé gris clair pour les machines.",
+      "couleur_de_base": "#B8BBB7",
+      "palette": "BRUSHED_STEEL",
+      "roughness": 0.4,
+      "metallic": 1.0,
+      "type": "uni",
+      "cartes_attendues": [],
+      "roblox_base_material": "Metal",
+      "note": "Teinte proposée par Claude, ajoutée à la palette le 20/11/2026.",
+      "statut_texture": "couleur unie, pas de texture prévue",
+      "valide": "2026-11-20"
     }
   ]
 }

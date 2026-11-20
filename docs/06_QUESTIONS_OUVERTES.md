@@ -5,8 +5,6 @@ Décisions à prendre par Hugo. Une fois tranchée, la réponse va dans le docum
 | # | Question | Pourquoi c'est important | Options / proposition |
 |---|---|---|---|
 | 6 | **Orientation après import** (voir doc 05) | Éviter que tous les assets arrivent tournés de 180°. | Test à faire ensemble dans Studio |
-| 8 | **Nouveaux matériaux pour le magasin** (voir doc 07) | Les images de référence utilisent des murs crème, une banquette sauge, des plantes, des ardoises vert forêt et des machines en inox, absents de la bibliothèque. | Valider ou refuser PAINT_CREAM, FABRIC_SAGE, FOLIAGE_GREEN, PAINT_FOREST_GREEN (couleurs déjà dans la palette) et METAL_BRUSHED_STEEL (nouvelle couleur) |
-| 9 | **Lumière chaude ou neutre ?** | Les références ont une lumière dorée ; le jeu actuel a été réglé en lumière neutre pour la lisibilité. Change le rendu de toute la palette. | Chaude comme les références · neutre comme aujourd'hui · chaude douce |
 | 7 | **Roughness / metallic / répétition des matériaux** | Valeurs proposées dans `materials.json`, à confirmer avec les vraies textures. | À valider quand les textures seront déposées |
 
 ## Décisions prises
@@ -19,3 +17,6 @@ Décisions à prendre par Hugo. Une fois tranchée, la réponse va dans le docum
 | 20/11/2026 | Plan de travail : **4,0 studs** (Hugo repart de zéro). |
 | 20/11/2026 | Sol : **beige**, matériau FLOOR_BEIGE_STONE avec la texture de carrelage de Hugo. |
 | 20/11/2026 | Ambiance générale : les 4 images de `references/moodboard/` (voir doc 07). |
+| 20/11/2026 | Nouveaux matériaux : PAINT_CREAM, FABRIC_SAGE, FOLIAGE_GREEN, METAL_BRUSHED_STEEL ; PAINT_FOREST_GREEN non retenu. |
+| 20/11/2026 | Palette : ajout de l'**Inox brossé #B8BBB7** pour les machines. |
+| 20/11/2026 | Lumière du magasin : **chaude douce**. |

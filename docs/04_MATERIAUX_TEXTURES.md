@@ -1,6 +1,6 @@
 # 04 · Matériaux et textures
 
-La liste des 10 matériaux officiels (§7 des règles) est dans [`materials/materials.json`](../materials/materials.json).
+La liste des 10 matériaux officiels (§7 des règles), plus 4 matériaux validés le 20/11/2026, est dans [`materials/materials.json`](../materials/materials.json).
 Chaque matériau a son dossier `materials/<ID>/` où déposer ses textures.
 
 | ID | Couleur de base | Type | Cartes attendues | État |
@@ -15,6 +15,10 @@ Chaque matériau a son dossier `materials/<ID>/` où déposer ses textures.
 | METAL_MATTE_BLACK | Métal noir #303331 | uni | — | couleur unie |
 | CERAMIC_OFF_WHITE | Blanc cassé #F7F4EC | uni | — | couleur unie |
 | GLASS_CLEAR | Blanc cassé #F7F4EC, transparent | uni | — | couleur unie |
+| PAINT_CREAM *(ajout 20/11)* | Crème #F2EBDD | répétable | Color, Roughness | textures à fournir |
+| FABRIC_SAGE *(ajout 20/11)* | Vert sauge #A3B39B | répétable (côtes verticales) | Color, Normal | textures à fournir |
+| FOLIAGE_GREEN *(ajout 20/11)* | Vert végétal #607B58 | uni | — | couleur unie |
+| METAL_BRUSHED_STEEL *(ajout 20/11)* | Inox brossé #B8BBB7 (nouvelle couleur de palette) | uni | — | couleur unie |
 
 Roughness, metallic et taille de répétition dans le JSON = **propositions** à valider.
 

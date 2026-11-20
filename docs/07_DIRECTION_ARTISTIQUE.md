@@ -1,7 +1,7 @@
 # 07 · Direction artistique du magasin
 
 > Validé le 20/11/2026 : l'ambiance générale du magasin suit les 4 images de [`references/moodboard/`](../references/moodboard/).
-> Ce document traduit ces images en règles et en liste d'assets. Les matériaux marqués **NOUVEAU** attendent une validation (§7).
+> Ce document traduit ces images en règles et en liste d'assets. Les matériaux marqués **NOUVEAU** ont été ajoutés à la bibliothèque le 20/11/2026.
 
 | Plan isométrique | Coin machines | Vue de la salle | Photo réelle |
 |---|---|---|---|
@@ -26,7 +26,7 @@ Un coffee shop cosy et lumineux : murs crème, crédence de carrelage vert forê
 | Chaises | Assise beige, pieds fins foncés | FABRIC_WARM_BEIGE + METAL_MATTE_BLACK |
 | Luminaires | Suspensions sauge en dôme, spots sur rail noir | SAGE_PAINT + METAL_MATTE_BLACK |
 | Plantes | Pots blanc cassé, feuillage simple en gros volumes | CERAMIC_OFF_WHITE + **NOUVEAU** FOLIAGE_GREEN |
-| Ardoises / menus | Cadre bois clair, fond vert forêt | WOOD_OAK_LIGHT + **NOUVEAU** PAINT_FOREST_GREEN |
+| Ardoises / menus | Cadre bois clair, fond noir mat | WOOD_OAK_LIGHT + fond METAL_MATTE_BLACK (ardoise noire ; PAINT_FOREST_GREEN non retenu) |
 | Porte d'entrée | Double porte vert forêt vitrée | à définir avec le bâtiment |
 | Sol | Carrelage beige (texture de Hugo) | FLOOR_BEIGE_STONE |
 
@@ -39,11 +39,16 @@ Formes : arrondis doux (tables rondes, angles de comptoir), répétition de lame
 - Les plans de travail encombrés : dans le jeu, un plan ne porte que la machine de sa case et éventuellement une plante. La lisibilité en vue du dessus passe avant (§3).
 - Les vitres et transparences en couches (vitrine, bocaux) : une seule surface transparente par objet (performances).
 
-## Machines : une question de palette
+## Machines
 
-Sur les références, les machines sont **en inox et en noir**. La palette v1.0 n'a pas de gris acier. Deux options :
-1. Rester dans la palette : corps METAL_MATTE_BLACK, panneaux CERAMIC_OFF_WHITE ou SAGE_PAINT, détails en bois clair.
-2. Ajouter **NOUVEAU** METAL_BRUSHED_STEEL (inox brossé, gris clair) : plus fidèle aux images, mais c'est une couleur en plus dans la palette.
+Validé le 20/11/2026 : machines **en inox brossé et noir mat**, comme les références.
+- Corps et grandes surfaces : **NOUVEAU** METAL_BRUSHED_STEEL (Inox brossé #B8BBB7, ajouté à la palette).
+- Poignées, boutons, socles, porte-filtres : METAL_MATTE_BLACK.
+- Pas de cadrans ni d'écrans détaillés : de simples formes (disque, rectangle) suffisent.
+
+## Lumière
+
+Validé le 20/11/2026 : **chaude douce**. L'ambiance cosy des références, sans jaunir les couleurs de la palette ni gêner la lisibilité en vue du dessus pendant les rushs. Les réglages Lighting de Studio seront calés sur ce principe quand le magasin sera assemblé.
 
 ## Organisation du magasin (d'après le plan isométrique)
 

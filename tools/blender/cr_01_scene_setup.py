@@ -7,7 +7,7 @@ Ce que fait le script (sans rien supprimer de la scène) :
      pieds au sol, face avant vers -Y, non sélectionnable et exclu du rendu.
   3. Ajoute des repères de hauteur (plan de travail, hanche, coude, épaule, yeux)
      tirés de standards/ergonomie.json.
-  4. Crée ou met à jour les 10 matériaux officiels (materials/materials.json).
+  4. Crée ou met à jour les matériaux officiels (materials/materials.json).
      Si des textures existent dans materials/<ID>/, elles sont branchées automatiquement.
 
 Utilisation : Blender > onglet Scripting > ouvrir ce fichier > Run Script.

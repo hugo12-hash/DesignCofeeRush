@@ -41,7 +41,7 @@ assets/<Catégorie>/CR_<Catégorie>_<Nom>/   livrables : GLB, textures/, fiche_t
 
 ## Workflow en 3 scripts (Blender ≥ 4.2)
 
-1. `tools/blender/cr_01_scene_setup.py` — unités en studs, mannequin R15, repères de hauteur, 10 matériaux officiels (textures branchées automatiquement).
+1. `tools/blender/cr_01_scene_setup.py` — unités en studs, mannequin R15, repères de hauteur, matériaux officiels (textures branchées automatiquement).
 2. `tools/blender/cr_02_new_asset.py` — crée `<Nom>_ROOT` avec catégorie, nom, version, type de pivot.
 3. `tools/blender/cr_03_check_and_export.py` — contrôle (noms, échelles, triangles, matériaux, pivot) puis exporte `CR_<Catégorie>_<Nom>_V01.glb` + fiche technique + aperçu.
 

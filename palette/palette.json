@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "source": "docs/00_REGLES_MAITRES.md §1",
+  "version": "1.1",
+  "source": "docs/00_REGLES_MAITRES.md §1 ; Inox brossé ajouté le 20/11/2026 avec l'accord de Hugo (teinte proposée)",
   "regle": "Ne pas introduire de couleurs très saturées sans demande explicite.",
   "couleurs": [
     {
@@ -154,6 +154,23 @@
         0.117,
         0.1981,
         0.0976
+      ]
+    },
+    {
+      "id": "BRUSHED_STEEL",
+      "nom": "Inox brossé",
+      "hex": "#B8BBB7",
+      "role": "secondaire",
+      "rgb_0_255": [
+        184,
+        187,
+        183
+      ],
+      "roblox_color3": "Color3.fromRGB(184, 187, 183)",
+      "blender_linear_rgb": [
+        0.4793,
+        0.4969,
+        0.4735
       ]
     }
   ]

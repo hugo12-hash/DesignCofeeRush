@@ -8,7 +8,7 @@ Blender > *Scripting* > ouvrir `tools/blender/cr_01_scene_setup.py` > **Run Scri
 Résultat :
 - Unités : *Unit System = None*, rotations en degrés → **1 unité Blender = 1 stud**.
 - Collection `REF_CoffeeRush` : mannequin R15 (échelle verrouillée, exclu du rendu et de l'export) + repères de hauteur `GUIDE_…`.
-- Les 10 matériaux officiels, avec leurs textures si elles sont dans `materials/`.
+- Les matériaux officiels, avec leurs textures si elles sont dans `materials/`.
 
 ## 2. Créer l'asset
 
