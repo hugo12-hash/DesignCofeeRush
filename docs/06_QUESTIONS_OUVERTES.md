@@ -5,7 +5,8 @@ Décisions à prendre par Hugo. Une fois tranchée, la réponse va dans le docum
 | # | Question | Pourquoi c'est important | Options / proposition |
 |---|---|---|---|
 | 6 | **Orientation après import** (voir doc 05) | Éviter que tous les assets arrivent tournés de 180°. | Test à faire ensemble dans Studio |
-| 7 | **Roughness / metallic / répétition des matériaux** | Valeurs proposées dans `materials.json`, à confirmer avec les vraies textures. | À valider quand les textures seront déposées |
+| 7 | **Rendu des textures v1** | Couleurs recalées sur la palette, relief et brillance générés : à valider visuellement (voir `materials/materials_preview.png`), idéalement dans Studio. | Valider · ajuster un matériau précis |
+| 10 | **Trois blancs très proches** | MARBLE_CREAM, PAINT_CREAM et CERAMIC_OFF_WHITE se confondent ; un plan en marbre sur un mur crème risque de disparaître. | Garder · assombrir légèrement le mur ou foncer le veinage du marbre |
 
 ## Décisions prises
 

@@ -1,0 +1,65 @@
+{
+  "note": "Correspondance matériau officiel → texture source de Hugo (dossier Roblox MAP/assets/textures). Réglages ajustables puis relancer cr_build_textures.py.",
+  "materiaux": {
+    "WOOD_OAK_LIGHT": {
+      "source": "tex_oak_plain.png",
+      "resolution": 512,
+      "force_normal": 0.3,
+      "flou": 1.0,
+      "variation_roughness": 0.1
+    },
+    "WOOD_OAK_RIBBED": {
+      "source": "tex_oak_slats.png",
+      "resolution": 512,
+      "force_normal": 2.0,
+      "flou": 1.5,
+      "variation_roughness": 0.15,
+      "contraste": 0.8
+    },
+    "TILE_FOREST_GREEN": {
+      "source": "tex_wall_tiles_green.png",
+      "resolution": 1024,
+      "force_normal": 2.0,
+      "flou": 1.5,
+      "relief_inverse": true,
+      "variation_roughness": 0.5
+    },
+    "MARBLE_CREAM": {
+      "source": "tex_marble_ivory.png",
+      "resolution": 1024,
+      "flou": 1.0,
+      "variation_roughness": 0.05
+    },
+    "FLOOR_BEIGE_STONE": {
+      "source": "tex_floor_tiles.png",
+      "resolution": 1024,
+      "force_normal": 0.6,
+      "flou": 1.5,
+      "variation_roughness": 0.15
+    },
+    "SAGE_PAINT": {
+      "source": "tex_paint_sage.png",
+      "resolution": 512,
+      "flou": 2.0,
+      "variation_roughness": 0.05
+    },
+    "PAINT_CREAM": {
+      "source": "tex_paint_sage.png",
+      "resolution": 512,
+      "flou": 2.0,
+      "variation_roughness": 0.05
+    },
+    "FABRIC_WARM_BEIGE": {
+      "source": "tex_fabric_greige.png",
+      "resolution": 512,
+      "force_normal": 0.8,
+      "flou": 0.7
+    },
+    "FABRIC_SAGE": {
+      "source": "tex_fabric_greige.png",
+      "resolution": 512,
+      "force_normal": 0.8,
+      "flou": 0.7
+    }
+  }
+}

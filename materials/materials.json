@@ -17,9 +17,9 @@
         "Normal"
       ],
       "roblox_base_material": "WoodPlanks",
-      "statut_texture": "en attente des textures de Hugo",
+      "statut_texture": "v1 générée le 20/11/2026 depuis la texture de Hugo, recalée sur la palette (tools/textures)",
       "studs_par_repetition": 4,
-      "resolution_px": 1024
+      "resolution_px": 512
     },
     {
       "id": "WOOD_OAK_RIBBED",
@@ -35,9 +35,9 @@
         "Normal"
       ],
       "roblox_base_material": "Wood",
-      "statut_texture": "en attente des textures de Hugo",
+      "statut_texture": "v1 générée le 20/11/2026 depuis la texture de Hugo, recalée sur la palette (tools/textures)",
       "studs_par_repetition": 4,
-      "resolution_px": 1024
+      "resolution_px": 512
     },
     {
       "id": "TILE_FOREST_GREEN",
@@ -53,7 +53,7 @@
         "Normal"
       ],
       "roblox_base_material": "SmoothPlastic",
-      "statut_texture": "en attente des textures de Hugo",
+      "statut_texture": "v1 générée le 20/11/2026 depuis la texture de Hugo, recalée sur la palette (tools/textures)",
       "studs_par_repetition": 4,
       "resolution_px": 1024
     },
@@ -70,7 +70,7 @@
         "Roughness"
       ],
       "roblox_base_material": "Marble",
-      "statut_texture": "en attente des textures de Hugo",
+      "statut_texture": "v1 générée le 20/11/2026 depuis la texture de Hugo, recalée sur la palette (tools/textures)",
       "studs_par_repetition": 8,
       "resolution_px": 1024
     },
@@ -88,8 +88,8 @@
         "Normal"
       ],
       "roblox_base_material": "Slate",
-      "statut_texture": "en attente des textures de Hugo",
-      "studs_par_repetition": 8,
+      "statut_texture": "v1 générée le 20/11/2026 depuis la texture de Hugo, recalée sur la palette (tools/textures)",
+      "studs_par_repetition": 5,
       "resolution_px": 1024,
       "note": "Validé le 20/11/2026 : sol du magasin beige avec texture de carrelage fournie par Hugo."
     },
@@ -106,7 +106,7 @@
         "Roughness"
       ],
       "roblox_base_material": "SmoothPlastic",
-      "statut_texture": "en attente des textures de Hugo",
+      "statut_texture": "v1 générée le 20/11/2026 depuis la texture de Hugo, recalée sur la palette (tools/textures)",
       "studs_par_repetition": 8,
       "resolution_px": 512
     },
@@ -123,7 +123,7 @@
         "Normal"
       ],
       "roblox_base_material": "Fabric",
-      "statut_texture": "en attente des textures de Hugo",
+      "statut_texture": "v1 générée le 20/11/2026 depuis la texture de Hugo, recalée sur la palette (tools/textures)",
       "studs_par_repetition": 2,
       "resolution_px": 512
     },
@@ -180,7 +180,7 @@
       "roblox_base_material": "SmoothPlastic",
       "studs_par_repetition": 8,
       "resolution_px": 512,
-      "statut_texture": "en attente des textures de Hugo",
+      "statut_texture": "v1 générée le 20/11/2026 depuis la texture de Hugo, recalée sur la palette (tools/textures)",
       "valide": "2026-11-20"
     },
     {
@@ -198,7 +198,7 @@
       "roblox_base_material": "Fabric",
       "studs_par_repetition": 2,
       "resolution_px": 512,
-      "statut_texture": "en attente des textures de Hugo",
+      "statut_texture": "v1 générée le 20/11/2026 depuis la texture de Hugo, recalée sur la palette (tools/textures)",
       "valide": "2026-11-20"
     },
     {
