@@ -9,7 +9,7 @@ Chaque matériau a son dossier `materials/<ID>/` où déposer ses textures.
 | WOOD_OAK_RIBBED | Bois clair #D6B58C | répétable (lames verticales) | Color, Roughness, Normal | textures à fournir |
 | TILE_FOREST_GREEN | Vert forêt #355B49 | répétable | Color, Roughness, Normal | textures à fournir |
 | MARBLE_CREAM | Crème #F2EBDD | répétable | Color, Roughness | textures à fournir |
-| FLOOR_BEIGE_STONE | Beige chaud #C5AD91 | répétable | Color, Roughness, Normal | textures à fournir |
+| FLOOR_BEIGE_STONE | Beige chaud #C5AD91 | répétable (carrelage, validé) | Color, Roughness, Normal | texture de Hugo à déposer |
 | SAGE_PAINT | Vert sauge #A3B39B | répétable | Color, Roughness | textures à fournir |
 | FABRIC_WARM_BEIGE | Beige chaud #C5AD91 | répétable | Color, Normal | textures à fournir |
 | METAL_MATTE_BLACK | Métal noir #303331 | uni | — | couleur unie |

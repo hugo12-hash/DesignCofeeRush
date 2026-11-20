@@ -1,10 +1,11 @@
 {
-  "statut": "PROPOSITION partiellement validée — validé le 20/11/2026 : taille d'avatar imposée (mannequin = référence unique), grille de 5 studs. Autres valeurs à valider.",
+  "statut": "Validé le 20/11/2026 : taille d'avatar imposée, grille de 5 studs, plan de travail à 4,0 (Hugo repart de zéro et laisse le choix). Autres valeurs : proposition.",
   "unite": "stud",
   "reference": "references/character/R15/r15_measurements.json",
   "plan_de_travail": {
-    "hauteur_dessus": 3.85,
-    "justification": "valeur déjà utilisée dans le jeu (3,855) ; entre la hanche (3,51) et le coude (4,47) du mannequin"
+    "hauteur_dessus": 4.0,
+    "valide": "2026-11-20",
+    "justification": "0,47 sous le coude (4,47), juste au-dessus du poignet (3,85) : les mains se posent sur le plan ; valeur ronde, cohérente avec la grille de 5"
   },
   "module_grille": {
     "pas": 5.0,
@@ -19,7 +20,7 @@
     "note": "entre le bout des doigts (3,09) et l'épaule (5,68)"
   },
   "machine_sur_plan": {
-    "hauteur_max_au_dessus_du_plan": 2.45,
+    "hauteur_max_au_dessus_du_plan": 2.3,
     "note": "haut de machine ≤ 6,3 = hauteur des yeux, pour garder la vue en 1re personne"
   },
   "etagere_interactive_max": 5.7,

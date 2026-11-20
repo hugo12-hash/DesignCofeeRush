@@ -90,7 +90,8 @@
       "roblox_base_material": "Slate",
       "statut_texture": "en attente des textures de Hugo",
       "studs_par_repetition": 8,
-      "resolution_px": 1024
+      "resolution_px": 1024,
+      "note": "Validé le 20/11/2026 : sol du magasin beige avec texture de carrelage fournie par Hugo."
     },
     {
       "id": "SAGE_PAINT",

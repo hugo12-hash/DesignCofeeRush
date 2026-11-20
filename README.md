@@ -19,6 +19,7 @@ Référence artistique et technique des assets 3D du jeu Roblox **Coffee Rush**
 | Les matériaux et où déposer les textures | [`docs/04_MATERIAUX_TEXTURES.md`](docs/04_MATERIAUX_TEXTURES.md) |
 | Modéliser et exporter un asset | [`docs/05_PIPELINE_BLENDER_ROBLOX.md`](docs/05_PIPELINE_BLENDER_ROBLOX.md) |
 | Les décisions en attente | [`docs/06_QUESTIONS_OUVERTES.md`](docs/06_QUESTIONS_OUVERTES.md) |
+| L'ambiance du magasin | [`docs/07_DIRECTION_ARTISTIQUE.md`](docs/07_DIRECTION_ARTISTIQUE.md) |
 
 ## Arborescence
 
